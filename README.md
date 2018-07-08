@@ -16,8 +16,6 @@ Using PyQt5 to create a calculator.
 <br/>参照实验楼java的简单计算器开发教程，用python简单创建了gui界面，在计算控制上做了修改。
 <br/>原java程序实现为每次按钮输入一个数，然后输入一个运算符，再输入一个数得到运算结果。此次python程序改善为可通过文本框和按钮两种途径输入，并可以输入多重四则运算通过一次计算得到结果。
 
-<br/><br/>
-
 模块：
 <br/>calculator.exe： 此文件为pyinstaller打包的执行文件，可直接单独运行。
 <br/>calculator.py: 此模块为gui界面初始化和布局设计，包括事件触发控制。
@@ -25,7 +23,7 @@ Using PyQt5 to create a calculator.
 <br/>operation.py： 计算处理模块。包括输入文本处理检验和四则运算的处理。
 <br/>test：为上述模块的测试文件。
 
-<br/><br/>
+<br/>
 
 坑点：
 <br/>1、pyinstaller打包依赖工具包版本，尽量避免用最新版本工具包。
@@ -33,8 +31,6 @@ Using PyQt5 to create a calculator.
 <br/>3、PyQt5是C++编写的，参考文档看起来比较费劲，网上参考资料较少（雷同）。
 <br/>4、按键时间中，Qt.Key_Enter没有触发，改成Qt.Key_Escape可以触发，原因未知。
 <br/>5、按钮布局、大小调整受到gridlayout的限制，暂未调整。
-
-<br/><br/>
 
 后续：
 <br/>可增加平方、开方、对数等运算，在operation处进行扩展。
